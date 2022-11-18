@@ -53,8 +53,6 @@ async function insertTemplates() {
   }
 }
 
-insertTemplates();
-
 async function getEmailTemplate(name, params) {
   const et = await EmailTemplate.findOne({ name });
 

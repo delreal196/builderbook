@@ -1,11 +1,15 @@
 {
-  "name": "9-begin",
+  "name": "9-end",
   "version": "0.0.1",
   "license": "MIT",
+  "engines": {
+    "node": "14.18.1",
+    "yarn": "1.22.5"
+  },
   "scripts": {
     "dev": "nodemon server/server.js --watch server",
     "build": "next build",
-    "start": "next start",
+    "start": "node server/server.js",
     "lint": "eslint '**/*.js' '**/*.jsx'",
     "test": "jest --coverage"
   },
